@@ -12,7 +12,6 @@ import java.util.Collection;
 public class StudentService {
 
     @Autowired
-    @Qualifier("fakeData")
     private StudentDao studentDao;
 
     public Collection<Student> getAllStudents(){

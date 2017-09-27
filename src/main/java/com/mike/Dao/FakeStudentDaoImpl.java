@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Repository
-@Qualifier("fakeData")
 public class FakeStudentDaoImpl implements StudentDao {
 
     private static Map<Integer, Student> students;
