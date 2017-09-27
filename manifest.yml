@@ -1,0 +1,6 @@
+---
+applications:
+- name: springbootapp
+  buildpack: java_buildpack_offline
+  memory: 1GB
+  path: ./target/springbootapp-1.0-SNAPSHOT.jar
